@@ -1,0 +1,12 @@
+male(aHannan).
+male(arbaaz).
+male(huzaifa).
+male(mubashir).
+male(qaseem).
+male(hamza).
+male(amir).
+male(jerry).
+male(umair).
+male(abubaker).
+female(aelia).
+female(nabia).
