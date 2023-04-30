@@ -40,5 +40,17 @@ son(muzammil,shahid).
 
 daughter(amna,shahid).
 
+brother(zahid,shahid).
+brother(shahid,zahid).
+brother(hannan,ayan).
+brother(hannan,zaeem).
+brother(zaeem,ayan).
+brother(zaeem,hannan).
+brother(ayan,hannan).
+brother(ayan,zaeem).
+brother(muzammil,amna).
+sister(amna,muzammil).
+
 grandfather(A,D):-parent(A,C),parent(C,D).
 father(C,D):-parent(C,D),male(zahid).
+cousin(D,I):-son(D,C),son(I,H),brother(C,H).
